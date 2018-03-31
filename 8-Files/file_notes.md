@@ -46,7 +46,7 @@ content = f.read
 
 # OR
 
-# Read each line in a file & pushes into array "content_arr"
+# Read each line in a file as an array & assign to variable "content_arr"
 content_arr = f.readlines
 
 # Explicitly close the file
