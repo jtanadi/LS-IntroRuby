@@ -34,7 +34,7 @@ end
 ```
 
 ## Reading files
-Files can be read either by opening the file and then reading it or using `IO.read()` and `IO.readlines()` (or `File.read()` and `File.readlines()` since the `File` class is a subclass of `IO`). [Documentation here](http://ruby-doc.org/core-2.5.0/IO.html#method-c-read).
+Files can be read either by opening the file and then reading it (`r` mode) or using `IO.read()` and `IO.readlines()` (or `File.read()` and `File.readlines()` since the `File` class is a subclass of `IO`). [Documentation here](http://ruby-doc.org/core-2.5.0/IO.html#method-c-read).
 
 ### Open & read with File.new()
 ```ruby
